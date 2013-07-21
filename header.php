@@ -12,6 +12,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
+<meta name="keywords" content="文胸,胸罩,内衣,奶罩,呵护乳房,抹胸裹胸肚兜,文胸推荐,文胸牌子,性感内衣">
+<meta name="description" content="520文胸致力于成为中国最大最专业的文胸推荐网站，致力于帮助女性消费者发现最符合、最有价值的文胸内衣商品，让女性消费者称心如意。">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />

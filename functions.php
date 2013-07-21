@@ -177,3 +177,11 @@ function visual_body_class( $classes ) {
 }
 
 add_filter('body_class','visual_body_class');
+
+add_action('wp_footer', 'add_baiduAnalytics');
+function add_baiduAnalytics() { ?>
+	<script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2c9fb80e47f3e4676746da498d20a167' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+<?php } ?>

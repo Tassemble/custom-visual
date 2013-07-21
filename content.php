@@ -14,8 +14,7 @@
 			if( ! empty( $score ) ) {
 				echo $score;
 			} 
-		?>
-		</div>
+		?>分</div>
 
 		<figure class="visual-thumbnail">
 		<a href="<?php the_permalink() ?>" class="thumbnail">
@@ -30,6 +29,13 @@
 		<div class="entry-meta">
 			<?php visual_posted_on(); ?>
 		</div><!-- .entry-meta -->
+		<?php
+			$data = get_post_meta( get_the_ID(), 'product_data', true );
+                        // check if the custom field has a value
+                        if( ! empty( $data ) ) {
+                                echo $data ;
+                        }
+		?>	
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 	
